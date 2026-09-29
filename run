@@ -1,0 +1,14 @@
+# 1. Backend Server (Terminal 1)
+cd backend
+py -3 app.py
+# Running on http://localhost:5000
+
+ py -3 data/import_kaggle_dataset.py   
+      py -3 test_static_date_dynamic_fields.py  
+      py -3 ml/train_model.py  
+      py -3 seed.py            
+
+# 2. Frontend Application (Terminal 2)
+cd frontend
+npm run dev
+# Running on http://localhost:3000

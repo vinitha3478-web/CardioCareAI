@@ -1,0 +1,259 @@
+{
+    "accuracy": 0.7377,
+    "precision": 0.5789,
+    "recall": 0.5789,
+    "f1_score": 0.5789,
+    "roc_auc": 0.782,
+    "confusion_matrix": {
+        "tn": 34,
+        "fp": 8,
+        "fn": 8,
+        "tp": 11,
+        "matrix": [
+            [
+                34,
+                8
+            ],
+            [
+                8,
+                11
+            ]
+        ]
+    },
+    "roc_curve": [
+        {
+            "fpr": 0.0,
+            "tpr": 0.0
+        },
+        {
+            "fpr": 0.0,
+            "tpr": 0.0526
+        },
+        {
+            "fpr": 0.0,
+            "tpr": 0.1053
+        },
+        {
+            "fpr": 0.0476,
+            "tpr": 0.1053
+        },
+        {
+            "fpr": 0.0476,
+            "tpr": 0.2632
+        },
+        {
+            "fpr": 0.0952,
+            "tpr": 0.2632
+        },
+        {
+            "fpr": 0.0952,
+            "tpr": 0.3684
+        },
+        {
+            "fpr": 0.119,
+            "tpr": 0.3684
+        },
+        {
+            "fpr": 0.119,
+            "tpr": 0.4211
+        },
+        {
+            "fpr": 0.1429,
+            "tpr": 0.4211
+        },
+        {
+            "fpr": 0.1429,
+            "tpr": 0.5789
+        },
+        {
+            "fpr": 0.1905,
+            "tpr": 0.5789
+        },
+        {
+            "fpr": 0.1905,
+            "tpr": 0.6842
+        },
+        {
+            "fpr": 0.2143,
+            "tpr": 0.6842
+        },
+        {
+            "fpr": 0.2143,
+            "tpr": 0.7368
+        },
+        {
+            "fpr": 0.381,
+            "tpr": 0.7368
+        },
+        {
+            "fpr": 0.381,
+            "tpr": 0.7895
+        },
+        {
+            "fpr": 0.4762,
+            "tpr": 0.7895
+        },
+        {
+            "fpr": 0.4762,
+            "tpr": 0.8421
+        },
+        {
+            "fpr": 0.5714,
+            "tpr": 0.8421
+        },
+        {
+            "fpr": 0.5714,
+            "tpr": 0.9474
+        },
+        {
+            "fpr": 0.6667,
+            "tpr": 0.9474
+        },
+        {
+            "fpr": 0.6667,
+            "tpr": 1.0
+        },
+        {
+            "fpr": 1.0,
+            "tpr": 1.0
+        }
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.8095238095238095,
+            "recall": 0.8095238095238095,
+            "f1-score": 0.8095238095238095,
+            "support": 42.0
+        },
+        "1": {
+            "precision": 0.5789473684210527,
+            "recall": 0.5789473684210527,
+            "f1-score": 0.5789473684210527,
+            "support": 19.0
+        },
+        "accuracy": 0.7377049180327869,
+        "macro avg": {
+            "precision": 0.6942355889724311,
+            "recall": 0.6942355889724311,
+            "f1-score": 0.6942355889724311,
+            "support": 61.0
+        },
+        "weighted avg": {
+            "precision": 0.7377049180327869,
+            "recall": 0.7377049180327869,
+            "f1-score": 0.7377049180327869,
+            "support": 61.0
+        }
+    },
+    "feature_influence": [
+        {
+            "feature": "oldpeak",
+            "coefficient": 1.2233,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 1.2233
+        },
+        {
+            "feature": "thalach",
+            "coefficient": 1.0793,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 1.0793
+        },
+        {
+            "feature": "ca",
+            "coefficient": 0.967,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.967
+        },
+        {
+            "feature": "trestbps",
+            "coefficient": -0.9161,
+            "impact": "Negative (Decreases Risk)",
+            "abs_impact": 0.9161
+        },
+        {
+            "feature": "exang",
+            "coefficient": 0.6014,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.6014
+        },
+        {
+            "feature": "chol",
+            "coefficient": 0.554,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.554
+        },
+        {
+            "feature": "slope",
+            "coefficient": 0.537,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.537
+        },
+        {
+            "feature": "cp",
+            "coefficient": 0.5007,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.5007
+        },
+        {
+            "feature": "thal",
+            "coefficient": 0.4601,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.4601
+        },
+        {
+            "feature": "restecg",
+            "coefficient": -0.4449,
+            "impact": "Negative (Decreases Risk)",
+            "abs_impact": 0.4449
+        },
+        {
+            "feature": "fbs",
+            "coefficient": 0.2812,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.2812
+        },
+        {
+            "feature": "age",
+            "coefficient": 0.2583,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.2583
+        },
+        {
+            "feature": "sex",
+            "coefficient": 0.1869,
+            "impact": "Positive (Increases Risk)",
+            "abs_impact": 0.1869
+        }
+    ],
+    "cross_validation_score": 0.7771,
+    "cross_validation_std": 0.0669,
+    "best_parameters": {
+        "C": 10.0,
+        "class_weight": null,
+        "solver": "liblinear"
+    },
+    "model_info": {
+        "algorithm": "Logistic Regression",
+        "dataset": "UCI Cleveland Heart Disease Dataset",
+        "total_samples": 303,
+        "train_samples": 242,
+        "test_samples": 61,
+        "features": [
+            "age",
+            "sex",
+            "cp",
+            "trestbps",
+            "chol",
+            "fbs",
+            "restecg",
+            "thalach",
+            "exang",
+            "oldpeak",
+            "slope",
+            "ca",
+            "thal"
+        ],
+        "model_version": "1.0.0",
+        "trained_at": "2026-09-27 14:57:21"
+    }
+}
